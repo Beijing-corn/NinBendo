@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+header div{
+    margin: 2px 10px;
+}
+.oringin{
+    font-size: 3rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card img{border-radius: 30%;
+    
+    width: 75px;
+   
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 10px auto;
+}
+.card{
+    border-radius:0 25px 0 25px;
+    flex-direction: column;
+    width: 25%;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    border-color: black;
+    display: flex;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.welcome{
+    width: 1580px;
+    height: 1000px;
+    background-image: url("https://art.ngfiles.com/images/1080000/1080463_dantonslip_zacian-pokemon-sword.jpg?f1573520113");
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.footer{
+    background-color: purple;
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+    color: whitesmoke;
+}
+.backgroundimg{
+    width: 1580px;
+    height: 585px;
+    background-image: url("https://www.kindpng.com/picc/m/647-6470365_zamazenta-sticker-hd-png-download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+    border-radius:  13px;
+    flex-direction: column;
+    width: 75%;
+    border-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    right: 100px;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+}
+.back{
+    background-image: url(https://images.gnwcdn.com/2019/articles/2019-06-06-10-36/-1559813797867.jpg/EG11/resize/1200x-1/-1559813797867.jpg);
+}
+
+.background{
+    
+ background-image: url(https://pbs.twimg.com/media/E2amY7eWYAEVJ3k.jpg);
+height: 860px;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+    
+}
+.btn btn-link{
+    background-color: white;
+}
+.lol{
+    background-image: url(https://i.pinimg.com/550x/f6/ed/7d/f6ed7da56fddb3587d04754b084e64ce.jpg);
+    height: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black  ;
+}
+.nerd{
+    height: 250px;
+   
+}
